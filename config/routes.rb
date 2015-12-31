@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :toys
+  resources :microposts
+  resources :microposts
+  resources :toys
+  resources :users
+  resources :microposts
+  resources :toys
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
