@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  resources :toys
-  resources :microposts
-  resources :microposts
-  resources :toys
   resources :users
   resources :microposts
   resources :toys
